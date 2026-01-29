@@ -286,7 +286,8 @@ export const PROJECTS_DATA: Project[] = [
     detailImages: [
         { url: 'https://lh3.googleusercontent.com/d/1I2CWOU6RV-4ge_JrTORcUnC-E7Cvuh0k', caption: '온라인 부트캠프(zoom)' },
         { url: 'https://lh3.googleusercontent.com/d/1www-PKnZ7Wg86gZ5gDGB-lIoNbxIds-2', caption: '오프라인 네트워킹' },
-        { url: 'https://lh3.googleusercontent.com/d/1VlBs81W0nuRmC0bWLtjm1ZG0jBnW3vvM', caption: '교육만족도(4.9/5)' }
+        { url: 'https://lh3.googleusercontent.com/d/1VlBs81W0nuRmC0bWLtjm1ZG0jBnW3vvM', caption: '교육만족도(4.9/5)' },
+        { url: 'https://lh3.googleusercontent.com/d/1u-37XyEBRlW3GTbBqcH1iG5lGVbiE615', caption: '수료생 네트워킹' }
     ],
     details: [
         '국가 전략산업 IT인재 양성 B2G 부트캠프 기획 및 운영 (2021.7~2024.12, 운영팀 및 강사 총괄)',
