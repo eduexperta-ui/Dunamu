@@ -247,7 +247,7 @@ export const SKILLS_DATA: Skill[] = [
 
 export const WORK_EXPERIENCE_DATA: Experience[] = [
   {
-    company: '멋쟁이사자첨(에듀테크 스타트업)',
+    company: '멋쟁이사자처럼(에듀테크 스타트업)',
     link: '#',
     title: '파트 리드',
     start: '2021.7',
@@ -281,7 +281,7 @@ export const PROJECTS_DATA: Project[] = [
     title: '대규모 IT 부트캠프 기획 및 성장 견인',
     context: '멋쟁이사자처럼',
     description: '프론트엔드, 디자인 부트캠프 누적 교육생 902명, 수료생 822명을 배출하며 누적 매출 100억 원을 달성했습니다. 학습자 중심의 교육 시스템을 구축하여 최고 수료율 100%, 만족도 4.9/5이라는 높은 성과를 달성했습니다.',
-    tags: ['교육과정 설계', '매출 100억', '수료울 100%','만족도 4.9/5'],
+    tags: ['교육과정 설계', '매출 100억', '수료율 100%','만족도 4.9/5'],
     thumbnailImage: `data:image/svg+xml;base64,${toBase64(bootcampSvg)}`,
     detailImages: [
         { url: 'https://lh3.googleusercontent.com/d/1I2CWOU6RV-4ge_JrTORcUnC-E7Cvuh0k', caption: '온라인 부트캠프(zoom)' },
@@ -311,7 +311,7 @@ export const PROJECTS_DATA: Project[] = [
     title: 'B2G IT 교육 사업 제안 및 수주',
     context: '멋쟁이사자처럼',
     description: '고용노동부 주관 K-Digital Training 사업에서 총 4개 과제에 모두 선정되어 100% 수주 성공률을 기록했습니다. 데이터 기반의 제안 전략으로 200억 원 이상의 기대 매출을 확보했습니다.',
-    tags: ['RFP 분석', '제안서 기획', '시장 분석', '프리젠테이션'],
+    tags: ['RFP 분석', '제안서 기획', '시장 분석', '프레젠테이션'],
     thumbnailImage: `data:image/svg+xml;base64,${toBase64(proposalSvg)}`,
     detailImages: [
         { url: 'https://lh3.googleusercontent.com/d/1owMUvqaaO2o17PZAFi8Jbgpb_jJLezeu', caption: '2023 선정 과정' },
