@@ -339,7 +339,7 @@ export const PROJECTS_DATA: Project[] = [
     tags: ['교육 운영 총괄', '멘토링 시스템', '팀빌딩', '재계약 달성'],
     thumbnailImage: `data:image/svg+xml;base64,${toBase64(hackathonSvg)}`,
     detailImages: [
-        { url: 'https://lh3.googleusercontent.com/d/1C00AhJXft8IBa7gcbpgCt_TF0fb7XLRN' caption: '해커톤 현장' },
+        { url: 'https://lh3.googleusercontent.com/d/1C00AhJXft8IBa7gcbpgCt_TF0fb7XLRN', caption: '해커톤 현장' },
         { url: 'https://lh3.googleusercontent.com/d/1-bCvg-Y5Vtdh1sg8Ng35LoVTs84s38sF', caption: '단체사진' },
         { url: 'https://lh3.googleusercontent.com/d/1to3kkQjFJXP0j2HkV21eQhpD87s_V4NB', caption: '해커톤 운영 노션' }
     ],
@@ -366,7 +366,7 @@ export const PROJECTS_DATA: Project[] = [
     tags: ['교육 기획', 'C-Level 교육', '매출 4억 달성', '마케팅 효율화'],
     thumbnailImage: `data:image/svg+xml;base64,${toBase64(premiumEduSvg)}`,
     detailImages: [
-        { url: 'https://lh3.googleusercontent.com/d/1fc8L9XLYZR7ZY4FiZU11s6OUyVEiJRV2', caption: '비즈니스 전략 강의' ,
+        { url: 'https://lh3.googleusercontent.com/d/1fc8L9XLYZR7ZY4FiZU11s6OUyVEiJRV2', caption: '비즈니스 전략 강의' },
         { url: 'https://lh3.googleusercontent.com/d/1BY8CtN1drw8NVQMQn6mSZUmLpJdEK1iX', caption: '베트남-한국 인구학 강의' },
         { url: 'https://lh3.googleusercontent.com/d/1JlVjERINhqE9qQLAhod2fb4ZUTOWmgWO', caption: '네트워킹 데이' }
     ],
