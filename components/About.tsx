@@ -45,6 +45,7 @@ const About: React.FC = () => {
                 alt="김태진 프로필 사진" 
                 onLoad={handleImageLoad}
                 onError={handleImageError}
+                referrerPolicy="no-referrer"
                 className={`w-full h-full object-cover object-[center_15%] transition-all duration-700 transform scale-[1.2] origin-top hover:scale-[1.25] ${isLoading ? 'opacity-0' : 'opacity-100'}`}
               />
             </div>

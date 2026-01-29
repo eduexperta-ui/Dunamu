@@ -9,7 +9,7 @@ const toBase64 = (str: string) => {
     }
 };
 
-// Helper for Detail Image Placeholders
+// Helper for Detail Image Placeholders (Fallback)
 const getDetailImg = (text: string) => `data:image/svg+xml;base64,${toBase64(`
 <svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
   <rect width="800" height="450" fill="#f8fafc"/>
@@ -368,7 +368,8 @@ export const PROJECTS_DATA: Project[] = [
     detailImages: [
         { url: 'https://lh3.googleusercontent.com/d/1fc8L9XLYZR7ZY4FiZU11s6OUyVEiJRV2', caption: '비즈니스 전략 강의' },
         { url: 'https://lh3.googleusercontent.com/d/1BY8CtN1drw8NVQMQn6mSZUmLpJdEK1iX', caption: '베트남-한국 인구학 강의' },
-        { url: 'https://lh3.googleusercontent.com/d/1JlVjERINhqE9qQLAhod2fb4ZUTOWmgWO', caption: '네트워킹 데이' }
+        { url: 'https://lh3.googleusercontent.com/d/1JlVjERINhqE9qQLAhod2fb4ZUTOWmgWO', caption: '네트워킹 데이' },
+        { url: 'https://lh3.googleusercontent.com/d/1O5m9iLYa7U9Zl5U9fHSlG0cfGFibt58S', caption: '1박 2일 워크샵' }
     ],
     details: [
         '산업교육연구원 (2017.3 ~ 2020.10) 교육2팀 선임연구원',
@@ -415,6 +416,6 @@ export const PERSONAL_INFO = {
     bio: '학습자 중심의 정교한 LX 설계와 핵심을 파악하는 데이터 분석역량을 기반으로 교육의 전 과정을 총괄합니다. 4개 기수 100% 수료를 이끌어낸 압도적인 운영 전문성과 20개가 넘는 IT 교육사업 경험, 융합적 배경을 바탕으로 조직의 비즈니스 가치를 극대화하는 테크 교육 모델을 설계하고 운영합니다.',
     email: 'eduexperta@gmail.com',
     phone: '010-4154-4898',
-    // 가장 신뢰도가 높은 구글 유저 콘텐츠 서버 링크(lh3)로 변경
+    // Stable Google Drive Image Link
     profileImage: 'https://lh3.googleusercontent.com/d/1Ng20CTgKO4jInaEUFAbQO6JWneC5XQx3'
 };

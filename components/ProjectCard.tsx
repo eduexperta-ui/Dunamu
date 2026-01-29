@@ -83,6 +83,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                           alt={imgItem.caption || `${title} detail image ${index + 1}`}
                           loading="lazy"
                           decoding="async"
+                          referrerPolicy="no-referrer"
                           className="absolute inset-0 w-full h-full object-cover"
                         />
                       </div>
